@@ -16,10 +16,7 @@ namespace Encrypt_Decrypt.Algorithms.Algorithms.Keys
             {
                 rsa.KeySize = (int)rsaSize;
                  
-
-
-
-
+                 
                 string publicKey = rsa.ToJsonString(false);
                 string privateKey = rsa.ToJsonString(true);
 
