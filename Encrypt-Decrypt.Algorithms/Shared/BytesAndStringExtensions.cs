@@ -6,11 +6,7 @@ namespace Encrypt_Decrypt.Algorithms.Shared
 {
     internal static class BytesAndStringExtensions
     {
-        /// <summary>
-        /// byte to hex string extension
-        /// </summary>
-        /// <param name="bytes"></param>
-        /// <returns></returns>
+    
         internal static string ToHexString(this byte[] bytes)
         {
             StringBuilder sb = new StringBuilder();
@@ -21,11 +17,6 @@ namespace Encrypt_Decrypt.Algorithms.Shared
             return sb.ToString();
         }
 
-        /// <summary>
-        /// hex string to byte extension
-        /// </summary>
-        /// <param name="hex"></param>
-        /// <returns></returns>
         internal static byte[] ToBytes(this string hex)
         {
             if (hex.Length == 0)

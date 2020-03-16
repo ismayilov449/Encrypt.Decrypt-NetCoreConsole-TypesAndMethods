@@ -6,14 +6,7 @@ namespace Encrypt_Decrypt.Algorithms.Shared
 {
     internal static class ArrayExtensions
     {
-        /// <summary>
-        /// sub datas from array 
-        /// </summary>
-        /// <typeparam name="T"></typeparam>
-        /// <param name="arr"></param>
-        /// <param name="start"></param>
-        /// <param name="count"></param>
-        /// <returns></returns>
+      
         internal static T[] Sub<T>(this T[] arr, int start, int count)
         {
             T[] val = new T[count];
