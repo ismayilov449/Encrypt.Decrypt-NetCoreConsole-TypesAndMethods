@@ -1,5 +1,5 @@
 # Encrypt.Decrypt-NetCoreConsole-TypesAndMethods
-•AES
+```•AES
   •Create AES Key 
     •AES encrypt
       •AES encrypt without iv (ECB mode)
@@ -23,13 +23,13 @@
       •DES decrypt bytes with iv (CBC mode)
  
 •RSA
-Enum RsaSize
+•Enum RsaSize
 public enum RsaSize
 {
     R2048=2048,
     R3072=3072,
     R4096=4096
-}
+};```
     •Create RSA Key with RsaSize
     •Rsa Sign and Verify method  
     •RSA encrypt
